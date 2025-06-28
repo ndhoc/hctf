@@ -45,5 +45,5 @@ def read_file():
         return f'Error: {str(e)} {file_path}<br><a href="/">Back</a>'
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=False)
+    app.run(host="0.0.0.0", port=80, debug=False)
 
