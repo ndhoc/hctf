@@ -8,4 +8,4 @@ services:
       - FLAG=flag{study_1s_g4Y}     # nếu muốn load bằng biến môi trường trong app
     restart: always
     ports:
-      - "127.0.0.1:1337:5000"       # chỉ truy cập nội bộ VPS
+      - "127.0.0.1:1337:80"       # chỉ truy cập nội bộ VPS
